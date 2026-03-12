@@ -22,25 +22,29 @@ Using longitudinal language data collected in a naturalistic repeated-assessment
 
 ## Repository contents
 
-This repository intentionally includes only the minimum files necessary to inspect the core analytical logic, the LLM prompting approach, and the expert evaluation materials used in the study:
+This repository intentionally includes only the minimum files necessary to inspect the core analytical logic, the LLM prompting approach, the expert evaluation materials, and the derived feature-level outputs used in the study:
 
 - `README.md` — repository overview and usage notes
 - `main_analysis.py` — core code for preprocessing, feature extraction workflow, and main analyses
 - `prompt.txt` — LLM prompt used for feature extraction
 - `blinded_expert_evaluation_format.xlsx` — example format for the blinded expert evaluation
 - `misclassified_case_analysis_format.xlsx` — example format for the expert review of the 42 misclassified cases
+- `liwc_extracted_features.csv` — LIWC-derived feature outputs used in the analyses
+- `llm_extracted_features_main_analysis.csv` — LLM-derived feature outputs used in the main analyses
 
 ## Data availability
 
-The underlying participant-level data are **not publicly available** due to privacy, confidentiality, and institutional restrictions.
+The original participant-level source data, including raw text/transcript data and PSS-related data, are not publicly available due to privacy, confidentiality, and institutional restrictions.
 
-Accordingly, this repository does not include raw data, processed data, or any participant-identifiable information.
+However, to support methodological transparency, this repository includes selected derived feature-level outputs used in the study, including LIWC-derived features and the LLM-derived features used in the main analyses.
+
+These shared files do not include raw source text, original questionnaire responses, or participant-identifiable information.
 
 ## Code availability
 
-This repository provides the core code required to understand the analytical workflow and the prompt design used for LLM-based feature extraction.
+This repository provides the core code, prompt material, and selected derived feature-level outputs required to understand and partially reproduce the analytical workflow underlying the study.
 
-Because the original data are not included, exact numerical reproduction of the study results is not possible without authorized access to the source dataset.
+Because the original raw text data and PSS-related source data are not included, full end-to-end reproduction from source inputs is not possible without authorized access to the underlying dataset.
 
 ## Purpose of this repository
 
