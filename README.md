@@ -22,12 +22,13 @@ Using longitudinal language data collected in a naturalistic repeated-assessment
 
 ## Repository contents
 
-This repository intentionally includes only the minimum files necessary to inspect the core analytical logic and LLM feature extraction approach:
+This repository intentionally includes only the minimum files necessary to inspect the core analytical logic, the LLM prompting approach, and the expert evaluation materials used in the study:
 
 - `README.md` — repository overview and usage notes
-- `core_analysis.py` — core code for preprocessing, feature extraction workflow, and main analyses
-- `prompt_1.txt` — first LLM prompt used for feature extraction
-- `prompt_2.txt` — second LLM prompt used for feature extraction
+- `main_analysis.py` — core code for preprocessing, feature extraction workflow, and main analyses
+- `prompt.txt` — LLM prompt used for feature extraction
+- `blinded_expert_evaluation_format.xlsx` — example format for the blinded expert evaluation
+- `misclassified_case_analysis_format.xlsx` — example format for the expert review of the 42 misclassified cases
 
 ## Data availability
 
